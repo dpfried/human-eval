@@ -22,7 +22,7 @@ $ pip install -e human-eval
 
 **This program exists to run untrusted model-generated code. Users are strongly
 encouraged not to do so outside of a robust security sandbox. The [execution
-call](https://github.com/openai/human-eval/blob/master/human_eval/execution.py#L48-L58)
+call](human_eval/execution.py#L53-L63)
 in `execution.py` is deliberately commented out to ensure users read this
 disclaimer before running code in a potentially unsafe manner. See the comment in
 `execution.py` for more information and instructions.**
